@@ -1,0 +1,97 @@
+body{
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+
+
+.post{
+
+    width: 55vh;
+    height: 80vh;
+    border:1px solid black;
+    margin-left: 25px;
+    margin-top:25px;
+}
+
+.post-header{
+    width: 100%;
+    height: 10%;
+    border:none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.post-image{
+    width: 100%;
+    height:60% ;
+    border: none;
+}
+
+.post-body{
+    width: 100%;
+    height:10% ;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
+i{
+    font-size: 30px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.usuario{
+   display:flex ;
+   flex-direction: column;
+   margin-left: 5px;  
+}
+
+.nombre1{
+margin: 0;
+}
+
+
+.nombre2{
+    margin: 0;
+    font-weight: bold;
+}
+
+.parrafos {
+
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 100%;
+    height: 20%;
+    margin-left: 5px;
+}
+
+.iconos{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.book{
+    margin-top: 5px;
+    margin-right: 5px;
+}
